@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,12 +11,95 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #141414;
+    font-family: 'Inter';
 }
 
 .attribution { 
-    font-size: 0.6875rem; text-align: center; 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    color: #FFFFFF;
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+section {
+    margin: auto 0;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    max-width: 327px;
+    max-height: 579px;
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.profile-img {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+}
+
+.container-one {
+    height: 100%;
+    width: 100%;
+    gap: 4px;
+}
+
+.profile-name {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.location {
+    color: #C4F82A;
+    text-align: center;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.quote {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    line-height: 150%;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+} 
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+}
+
+.btn-style-one {
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 600;
+    border-radius: 8px;
+    gap: 8px;
 }
