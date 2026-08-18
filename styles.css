@@ -103,3 +103,13 @@ section {
     border-radius: 8px;
     gap: 8px;
 }
+
+/* TABLET */
+@media (min-width: 768px) {
+    .info {
+        max-width: 384px;
+        max-height: 611px;
+        padding: 40px;
+    }
+}
+
